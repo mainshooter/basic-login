@@ -13,7 +13,7 @@
      */
     public function index() {
       if ($this->User->checkIfClientIsLoggedIn()) {
-        // Client isn't logged in
+        // Client is logged in
         header('Location: '. $GLOBALS['config']['base_url'] . "display/loggedin");
       }
 
