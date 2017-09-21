@@ -30,6 +30,10 @@
       }
     }
 
+    public function logout() {
+      unset($_SESSION['token']);
+    }
+
     public function checkIfClientIsLoggedIn() {
       if (ISSET($_SESSION['token'])) {
         if ($this->loginToken === $_SESSION['token']) {
