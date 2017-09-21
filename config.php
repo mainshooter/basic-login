@@ -5,7 +5,7 @@
   $config['project-author'] = 'Peter Romijn';
   $config['project-company'] = 'SameBestDevelopment';
 
-  $config['base_url'] = '/basic-login/';
+  $config['base_url'] = '/leerjaar3/php/basic-login/';
   // Location of our site;
   // You need to change this when it is in a diffrent folder our
   // If it is in the root folder than it must be empty!
